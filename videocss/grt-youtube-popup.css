@@ -1,0 +1,112 @@
+
+.videoplayiconcontainer::after {
+
+    content: url("https://www.wonderplugin.com/download/playbutton.png");
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -32px;
+    margin-top: -32px;
+    opacity: 0.8;
+	cursor: pointer;
+
+}
+
+.videoplayiconcontainer:hover:after {
+	opacity:1;
+  }
+
+
+
+.grtyoutube-popup {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:99999;
+}
+
+.grtyoutube-popup-content {
+	/*margin-top:5%;
+	 width:95%;
+	max-width:850px; 
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;*/
+	width : 100%;
+	height: 100%;
+
+}
+
+.grtyoutube-popup-close {
+	position:absolute;
+	/* top:36px; */
+
+	top: 5px;
+	right:0;
+	color:#FFF;
+	font-size:25px;
+	width:25px;
+	height:25px;
+	cursor:pointer;
+	z-index: 99;
+}
+iframe{
+	width : 100%;
+	height: 100%;
+   }
+
+.grtyoutube-iframe iframe{
+	width : 100%;
+	height: 100%;
+   }
+
+
+.grtyoutube-dark-theme{
+	background: rgba(0,0,0, 9);
+}
+
+.grtyoutube-dark-theme .grtyoutube-popup-content {
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(255,255,255,0.4);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(255,255,255,0.4);
+	box-shadow: 0px 0px 8px 0px rgba(255,255,255,0.4);
+}
+
+.grtyoutube-dark-theme .grtyoutube-popup-close {
+	background: url('./icons8-close-25.svg') no-repeat;
+	/* right: -82px; */
+	right: 5;
+}
+
+.grtyoutube-light-theme {
+	background: rgba(255,255,255, 0.85);
+}
+
+.grtyoutube-light-theme .grtyoutube-popup-content {
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.4);
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.4);
+}
+
+.grtyoutube-light-theme .grtyoutube-popup-close {
+	background: url('./icon-close-black.png') no-repeat;
+}
+
+
+@media (max-width:767px) {
+	.grtyoutube-iframe {
+		width:100%;
+		height:350px;
+		position:inherit;
+	}
+	.grtyoutube-popup-content {
+		margin-top:25%;}
+
+		
+		.grtyoutube-dark-theme .grtyoutube-popup-close {
+			right: 0px;
+		  }
+
+}

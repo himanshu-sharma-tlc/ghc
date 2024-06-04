@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us | Global Hospitality Conclave</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/png" href="assets/fav.jpg" sizes="16x16" />
+
+
+    <meta name="og:type" property="og:type" content="website">
+    <meta name="description" property="description" content="Please fill the form to become a part of GHC or to seek any details or information about GHC.">
+    <meta name="og:description" property="og:description" content="Please fill the form to become a part of GHC or to seek any details or information about GHC.">
+    <meta name="og:title" property="og:title" content="Contact Us | Global Hospitality Conclave">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact-us.css">
+    <link rel="stylesheet" href="css/nav2.css">
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script/contact.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <script type="text/javascript">window.location.href = "https://www.globalhospitalityconclave.com/contactus.aspx"; </script>
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/GHC-Logo.png" />
+                    </a>
+                </div>
+                <ul class="header__nav dsktop" id="">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ghc-2023.html">GHC 2023</a></li>
+                    <li><a href="organizing-committee.html">Organizing Committee</a></li>
+                    <li><a href="photo-gallery-1.html">Photo Gallery</a></li>
+                    <li><a href="contactus.aspx" class="active">Contact Us</a></li>
+                </ul>
+
+                <span class="navbar-text">
+                    <div class="menu-btn">
+                        <a class="btn-open" href="javascript:void(0)"></a>
+                    </div>
+                </span>
+
+            </div>
+        </nav>
+    </header>
+    <div class="overlay">
+        <div class="menu">
+            <div class="container">
+                <ul class="header__nav" id="">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ghc-2023.html">GHC 2023</a></li>
+                    <li><a href="organizing-committee.html">Organizing Committee</a></li>
+                    <li><a href="photo-gallery-1.html">Photo Gallery</a></li>
+                    <li><a href="contactus.aspx" class="active">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section class="MAIN">
+        <div class="membership-section-wrapper" id="callback">
+            <div class="membership-banner">
+                <img src="assets/banner-contact-global-hospitality-conclave-2023.jpg" class="membership-banner-image" alt="" srcset="">
+            </div>
+            <div class="membership-form-block">
+                <div class="membership-form">
+                    <form class="frmbx" id="first_form" runat="server">
+                        <div class="frmsction">
+                            <div class="frmtr">
+                                <div class="frmtd" id="first_name">
+                                    <div class="frmfld_area">
+                                        <asp:TextBox ID="txtFirstName" runat="server" placeholder="Full Name" CssClass="frmfldbx" onkeyup="showProperCase(this);" onkeypress="return isNameAlphabet(event);" onblur="javascript:return validateForm1();" MaxLength="50"></asp:TextBox>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="frmtr">
+                                <div class="frmtd titlewidth">
+                                    <div class="frmslct_area">
+                                        <asp:DropDownList runat="server" ID="ddlCompany" CssClass="frmslctbx">
+                                            <asp:ListItem Text="+91" Value="+91" Selected="True"></asp:ListItem>
+                                        </asp:DropDownList>
+                                    </div>
+                                </div>
+                                <div class="frmtd mblwidth">
+                                    <div class="frmfld_area" id="phoneno">
+                                        <asp:TextBox ID="txtMobile" runat="server" placeholder="Mobile" CssClass="frmfldbx" onkeypress="return isnumeric(event);" onblur="javascript:return validateForm1();" MaxLength="10"></asp:TextBox>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="frmtr">
+                                <div class="frmtd emailwidth" id="email">
+                                    <div class="frmfld_area">
+                                        <asp:TextBox ID="txtEmail" runat="server" placeholder="Email" CssClass="frmfldbx" onkeypress="return isemailAlphanumeric(event);" onblur="javascript:return validateForm1();" MaxLength="80"></asp:TextBox>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="frmtr">
+                                <div class="frmtd emailwidth" id="batch">
+                                    <div class="frmfld_area">
+                                        <asp:TextBox ID="txtBatch" runat="server" placeholder="Batch" CssClass="frmfldbx" onkeypress="return isnumeric(event);" onblur="javascript:return validateForm1();" MaxLength="10"></asp:TextBox>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="frmtr">
+                                <div class="frmtd emailwidth">
+                                    <div class="frmfld_area">
+                                        <asp:DropDownList runat="server" ID="ddlBatch" CssClass="frmslctbx">
+                                            <asp:ListItem Text="OSHM/OCLD Batch" Value="OSHM/OCLD Batch" Selected="True"></asp:ListItem>
+                                            <asp:ListItem Text="Management Training/Guest Services" Value="Management Training/Guest Services"></asp:ListItem>
+                                            <asp:ListItem Text="Kitchen" Value="Kitchen"></asp:ListItem>
+                                            <asp:ListItem Text="Housekeeping" Value="Housekeeping"></asp:ListItem>
+                                        </asp:DropDownList>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="frmtr">
+                                <div class="check" id="chk">
+                                    <div class="checkbox-container">
+                                        <label class="checkbox-label">
+                                            <asp:CheckBox ID="chkTerms" runat="server" />
+                                            <span class="mark"></span>
+                                        </label>
+                                    </div>
+                                    <div class="chkbx_txt">
+                                        By offering the content above, I give permission to Global Hospitality Conclave and TLC DigiTech to make contact with me to receive more information and agree to
+                                        <span>
+                                            <a href="https://www.tlcgroup.com/disclaimer" target="_blank">Terms & Conditions </a>and the
+                                            <a href="https://www.tlcgroup.com/privacy-policy" target="_blank">Privacy Policy</a> on the website.
+                                        </span>
+                                    </div>
+                                </div>
+                                <span class="chkError" id="chkError"></span>
+                            </div>
+                            <div class="frmtr captcha">
+                                <asp:HiddenField runat="server" ID="hdnResponse" Value="" />
+                                <div id="recaptcha-demo" class="g-recaptcha" data-sitekey="6LdlTwwlAAAAALJQgUlPsheTozzWYPkChAbW8XaB"
+                                     data-callback="onSuccess">
+                                </div>
+                                <script>
+                                    var onSuccess = function (r) {
+                                        debugger;
+                                        $("#hdnResponse").val(r);
+                                    };
+                                </script>
+                            </div>
+                            <div class="submit_btn">
+                                <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClientClick="javascript:return validateForm();" OnClick="btnSubmit_Click" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <!-- Modal -->
+        <div class="modal" id="divThanku" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-body">
+
+                        <div class="thankupage">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <div class="thankubx">
+                                <div>
+                                    <img src="assets/thankuicn.svg">
+                                </div>
+                                <div class="thankyoutext">
+                                    <h3>Thank you!</h3>
+                                    <p>We have made a note of your request and are adding you to our event mailing list, in order to send you timely updates regarding the event.</p>
+                                    <div class="submit_btn contnuebtn mx-auto d-block" onclick="javascript:window.location.href='https://www.globalhospitalityconclave.com';">Continue</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-section">
+        <footer>
+            <p>
+                <a href="mailto:contactus@globalhospitalityconclave.com">
+                    <span style="padding: 10px;">
+                        <img src="assets/email-icon-global-hospitality-conclave-2023.svg">
+                    </span>contactus@globalhospitalityconclave.com
+                </a>
+            </p>
+            <p>@ 2023 All Rights Reserved</p>
+            <p>Website maintained by TLC DigiTech Pvt. Ltd.</p>
+        </footer>
+    </section>
+
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            //     $(".menu-btn a").click(function () {
+            //         $(".overlay").fadeToggle(200);
+            //         $(this).toggleClass('btn-open').toggleClass('btn-close');
+
+            //     });
+
+            // });
+
+
+        });
+    </script>
+</body>
+</html>

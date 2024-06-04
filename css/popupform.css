@@ -1,0 +1,136 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+button {
+	outline: none;
+}
+
+
+.close-new {
+	position: absolute;
+	right: 12px;
+	top: 19px;
+	width: 32px;
+	height: 32px;
+	opacity: 1;
+
+}
+
+
+.close-new:hover {
+	opacity: 0.5;
+}
+
+.close-new:before,
+.close-new:after {
+	position: absolute;
+	left: 15px;
+	content: ' ';
+	height: 21px;
+	width: 2px;
+	background-color: #525252;
+	color: #525252;
+}
+
+.close-new:before {
+	transform: rotate(45deg);
+}
+
+.close-new:after {
+	transform: rotate(-45deg);
+}
+
+/*.login__form{height: 400px; overflow-x: scroll;}*/
+.register__form,
+.login__form {
+	padding-top: 30px;
+}
+
+.modal-dialog1 {
+	max-width: 600px;
+	margin: 1.75rem auto;
+}
+
+.thankupage {
+	margin: 0 auto;
+	clear: both;
+}
+
+.alumni.thankubx {
+	padding: 30px 10px 30px 10px;
+	text-align: center;
+	max-width: 450px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.login-button-container {
+	display: flex;
+	/* border: 1px solid #e2b937; */
+	width: auto;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.sign-in__button,
+.register__button {
+	background-color: white;
+	color: #7f7f7f;
+	display: block;
+	min-height: 48px;
+	font-size: 16px;
+	font-weight: 500;
+  margin: 0 auto;
+  padding: 0;
+  line-height: 0;
+  border-radius: 0;
+  width: 214px;
+  border: 1px solid #e2b937;
+  outline: none;
+}
+
+.sign-in__button:hover,
+.register__button:hover {
+	background: none;
+	color: #e2b937;
+  outline: none;
+}
+
+.sign-in__button:active,
+.sign-in__button.active,
+.register__button:active,
+.register__button.active {
+	background-color: #e2b937;
+	box-shadow: none;
+	color: #fff;
+	border-radius: inherit;
+}
+
+.hidden_clip {
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute;
+}
+
+.text-input__field {
+	border: 0;
+	display: block;
+	font-size: 16px;
+	height: 60px;
+	padding: 18px;
+	width: 100%;
+}
+
+@media(max-width:600px) {
+  .sign-in__button, .register__button{
+    width: 100%;
+    padding: 5px;
+    /* font-size: 15px; */
+    width: 100%;
+ 
+    line-height: 20px;
+  }
+  	
+}
+

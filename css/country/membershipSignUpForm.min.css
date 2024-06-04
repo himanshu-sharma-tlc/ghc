@@ -1,0 +1,91 @@
+body{font-family: "Poppins", sans-serif;}
+ul#mCountryCodeNew {
+	position: absolute;
+	top: 0;
+	height: 350px;
+	overflow: auto;
+	width: 700px left:0;
+	will-change: transform;
+	transform: translate3d(0, 0, 0);
+	cursor: pointer;
+	border: 1px solid rgba(0,0,0,.15);
+border-radius: .25rem;
+}
+
+.dropdown-menu {
+	min-width: 320px;
+	line-height: 24px;
+	font-size: 14px;
+	height: 250px;
+	overflow: auto;
+	cursor: pointer;
+
+}
+ul li{
+	cursor: pointer;
+}
+
+.dropdown-togglee {
+	position: absolute;
+	right: 0;
+	/*top: calc(50% - 4px);
+	width: 0;
+	height: 0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 5px solid #000;*/
+
+	 background: #ffffff url(https://partner.clubmarriott.in/partner/common/img/dropdown.svg) no-repeat right 14px;
+}
+
+.col-4.col-md-2.dropdown-width {
+	padding: 0;
+	margin-top: -6px
+}
+
+button.country-code.dropdown-togglee {
+	color: #AFAFAF;
+	border: 0;
+	border-bottom: 1px solid #999;
+	width: 100%;
+/*	padding: 10px;*/
+	text-align: left;
+	padding: 11px 4px 9px 3px;
+}
+
+label.cm-input-label.input-number.member-signup input[type='tel'] {
+	margin-left: calc(-1% - 0px);
+	height: 36px
+}
+
+label.cm-input-label.input-number.member-signup {
+	width: 100%;
+	margin: 0 0 0 2px
+}
+
+
+.cm-input {
+	border: 0;
+	/*border-bottom: 1px solid #999;*/
+	/* padding-bottom: 11px; */
+	padding-bottom: 0px;
+	color: #000;
+	outline: 0;
+	font-size: 16px;
+	width: 100%;
+	font-weight: 300;
+	cursor: text;
+	background: transparent
+}
+
+.cm-input-group {
+	position: relative;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start
+}
+

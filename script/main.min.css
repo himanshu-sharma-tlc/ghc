@@ -1,0 +1,469 @@
+@font-face{font-family:"ProximaNova";src:url("main/resources/font/FontsFree-Net-Proxima-Nova-Light.otf")}
+@font-face{font-family:"EB Garamond Bold";src:url("main/resources/font/EBGaramond-Bold.ttf")}
+@font-face{font-family:"EB Garamond";src:url("main/resources/font/EBGaramond-Regular.ttf")}
+@font-face{font-family:"EB Garamond Italic";src:url("main/resources/font/EBGaramond-Italic.ttf")}
+@font-face{font-family:"EB Garamond BoldItalic";src:url("main/resources/font/EBGaramond-BoldItalic.ttf")}
+body{font-family:"ProximaNova",sans-serif}
+.experience-container{margin-top:50px}
+.cm-button-group{display:flex;justify-content:space-between}
+.cm-button-group.wrapped{flex-wrap:wrap}
+.cm-button-group.wrapped .cm-button{margin-bottom:25px}
+.cm-button-group.centered{justify-content:center}
+.cm-button-group.stacked{justify-content:center;align-items:center;flex-direction:column}
+.cm-button-group.start{justify-content:flex-start}
+.help-text,.cm-input-checkbox{font-family:"ProximaNova",sans-serif;font-size:12px;font-weight:300;color:#b1aaaa;margin-bottom:20px}
+.cm-input-label .cm-input-text{border:0;border-bottom:1px solid #000;padding-bottom:5px;color:#000;outline:0;font-size:16px;width:100%;font-weight:300;cursor:text}
+.cm-input{border:0;border-bottom:1px solid #000;padding-bottom:5px;color:#000;outline:0;font-size:16px;width:100%;font-weight:300;cursor:text;background:transparent}
+textarea.cm-textarea{border:0;border:1px solid #000;padding:10px;color:#000;outline:0;font-size:16px;width:100%;font-weight:300;cursor:text;background:#fff;height:125px;resize:none}
+.cm-input.cm-input-white,.cm-input.cm-input-white:focus{border-bottom:1px solid #fff;color:#fff}
+.cm-input.cm-input-gg{border-bottom:1px solid #b1aaaa;font-size:14px;color:#a98e4c}
+.cm-input.cm-input-gg:focus{border-bottom:1px solid #a98e4c}
+.cm-input:focus{border-bottom:1px solid #000}
+.cm-input::placeholder{font-family:"ProximaNova",sans-serif;font-size:16px;font-weight:300;color:#000}
+.cm-input::-webkit-input-placeholder{font-family:"ProximaNova",sans-serif;font-size:16px;font-weight:300;color:#000}
+.cm-input.cm-input-gg::placeholder,.cm-input.cm-input-gg::-webkit-input-placeholder{color:#b1aaaa}
+.cm-input.cm-input-white::placeholder,.cm-input.cm-input-white::-webkit-input-placeholder{color:#fff}
+.cm-input-group{position:relative;margin-bottom:20px;width:100%;display:flex;justify-content:space-between;align-items:flex-start}
+.cm-input-group .cm-input{display:block;margin:0}
+.cm-input-group .cm-select{margin-right:30px}
+.cm-input-group .cm-input-label{margin-bottom:0;flex:1;margin-right:30px}
+.cm-input-group .cm-input-label:last-child{margin-right:0}
+.cm-input-group.vertical{flex-direction:column}
+.cm-input-group.start{justify-content:flex-start}
+.cm-input-label{display:flex;margin-bottom:20px;align-items:flex-start;position:relative}
+.cm-input-label.cm-input-mini{min-width:70px;width:70px;max-width:70px}
+.cm-input-label.noMargin{margin:0}
+.cm-input-label .cm-input-white+span.cm-placeholder-label{color:#fff}
+.cm-input-label .cm-input-gg+span.cm-placeholder-label{color:#a98e4c}
+.cm-input-label span.cm-placeholder-label,.cm-placeholder-label{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}
+.cm-input-label a{cursor:pointer;text-decoration:underline}
+.disguise-text{width:calc(100% - 27px);font-family:"ProximaNova",sans-serif;font-size:10px;margin-left:27px;font-weight:300;line-height:1.4;color:#000;margin-bottom:10px}
+.disguise-text>a{text-decoration:underline;cursor:pointer}
+.disguise-text.collapse{margin-left:2px;width:auto}
+.cm-input-checkbox{display:none;cursor:pointer}
+.cm-input-checkbox+span.check-icon{width:17px;margin-right:10px;height:17px;display:inline-block;background:url("main/css/assets/checkbox-active.svg")}
+.cm-input-checkbox:checked+span.check-icon,.cm-input-checkbox[checked]+span.check-icon{background:url("main/css/assets/checkbox-active.svg")}
+.cm-input-checkbox{display:flex}
+.cm-input-checkbox input{width:0;height:0}
+.md-checkbox{position:relative;z-index:0;margin:1em 0;text-align:left;margin-left:30px}
+.md-checkbox.md-checkbox-inline{display:inline-block}
+.md-checkbox label:not(:empty){padding-left:.75em}
+.md-checkbox label:before,.md-checkbox label:after{content:"";position:absolute;left:-30px;top:2px;z-index:-1}
+.md-checkbox label:before{width:16px;height:16px;background:#fff;border:1px solid #a98e4c;border-radius:1px;cursor:pointer;transition:background .3s}
+.md-checkbox input[type="checkbox"]{outline:0;width:16px;margin:0 10px 0 0;display:inline-flex;font-size:inherit;width:0;height:0;margin:0;position:absolute;left:-30px;width:22px;height:22px;opacity:0}
+.md-checkbox input[type="checkbox"]:checked+label:before{background:url(main/css/main/css/assets/checkbox-active.svg);border:0;border:1px solid #a98e4c;background:#a98e4c}
+.md-checkbox input[type="checkbox"]:checked+label:after{-webkit-transform:translate(3px,5px) rotate(-45deg);transform:translate(3px,5px) rotate(-45deg);width:10px;height:5px;border:1px solid #fff;border-top-style:none;border-right-style:none}
+.md-checkbox input[type="checkbox"]:disabled+label:before{border-color:rgba(0,0,0,0.26)}
+.md-checkbox input[type="checkbox"]:disabled:checked+label:before{background:rgba(0,0,0,0.26)}
+.cm-select{position:relative}
+.cm-select>i.arrow-down{position:absolute;right:0;top:calc(50% - 4px);width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:5px solid #000}
+.cm-select .cm-input{pointer-events:none}
+.cm-select.cm-select-mini{width:70px;min-width:70px}
+.cm-select-options{display:none;padding:0;position:absolute;top:calc(100% + 2px);width:100%;left:0;margin:0;box-shadow:0 0 5px 0 rgba(118,192,255,0.2);border:solid 1px #e6e6e6;z-index:1;list-style-type:none}
+.cm-select-options>.cm-select-option{height:26px;padding:5px;background-color:#fff;font-family:"ProximaNova",sans-serif;font-size:14px;width:100%;transition:translate .3s;color:#000;cursor:pointer}
+.cm-select-options>.cm-select-option:hover,.cm-select-options>.cm-select-option.active,.cm-select-options>.cm-select-option.selected{background:#ebf2f8}
+.cm-select-options.in{display:block}
+.cm-button{min-width:168px;padding:15px 20px;font-family:"ProximaNova",sans-serif;font-size:12px;font-weight:300;text-transform:uppercase;color:#a98e4c;background:#fff;box-sizing:border-box;border:0;cursor:pointer;border:0;text-decoration:none;display:inline-block;transition:opacity .3s;text-align:center}
+.cm-button.cm-button-sm{padding:10px 15px;min-width:154px}
+.cm-button.primary{color:#fff;background:#c4b67e}
+.cm-button:hover{text-decoration:none;background:#c4b67e}
+.cm-button-group .cm-button.cm-button-sm{margin-right:10px}
+.cm-button-group .cm-button{margin-right:30px}
+.cm-button-group .cm-button:last-child{margin-right:0}
+h1.cm-heading{font-size:32px;font-family:"ProximaNova",sans-serif;font-size:32px;font-weight:400;font-weight:300;line-height:1.19;color:#000;margin:0;margin-bottom:5px}
+h1.cm-heading.cm-heading-white{color:#fff}
+.cm-heading.cm-heading-gray{color:#b1b1b1}
+h2.cm-heading.cm-heading-gray{font-size:16px}
+h2.cm-heading{font-size:24px;font-family:"Proxima Nova, Light";font-weight:300;line-height:1.25;margin:0;margin-bottom:5px;color:#000}
+h3.cm-heading{font-size:18px;font-family:"ProximaNova",sans-serif;font-weight:300;margin:0;margin-bottom:5px;color:#000}
+.cm-text{font-family:"ProximaNova",sans-serif;font-size:14px;margin:0;margin-bottom:5px;font-weight:300;color:#000}
+.cm-text.cm-text-12{font-family:"ProximaNova",sans-serif;font-size:12px;margin:0;margin-bottom:5px;font-weight:300;color:#000}
+.cm-text.cm-text-gray,.cm-text.cm-text-12.cm-text-gray{color:#a4a4a4}
+.cm-text-16{font-family:"ProximaNova",sans-serif;font-size:16px;margin:0;margin-bottom:5px;font-weight:300;color:#000}
+.cm-text-16.cm-text-gray{color:#a4a4a4}
+.cm-subtext{font-size:12px;font-family:"ProximaNova",sans-serif;font-weight:300;margin:0;margin-bottom:5px;color:#b1aaaa}
+.cm-text-serif{font-family:"ProximaNova",sans-serif;font-size:16px;line-height:1.38;color:#000}
+.cm-link,.cm-link:hover{font-family:"ProximaNova",sans-serif;font-size:16px;font-weight:300;color:#000;text-decoration:none;cursor:pointer}
+.cm-link.underlined,.cm-link.underlined:not([href]):not([tabindex]){text-decoration:underline}
+.cm-link.cm-link-serif{font-family:"EB Garamond",serif}
+.cm-menu-link,.cm-menu-link a{font-family:"ProximaNova",sans-serif;font-size:14px;font-weight:300;color:#000;text-decoration:none}
+.cm-menu-link a:hover{color:#a98e4c;text-decoration:underline}
+.cm-pagination .page-link,.cm-pagination .page-link:not([href]):not([tabindex]){cursor:pointer;border:0;color:#b1aaaa;padding:0 12px;padding:0 12.5px}
+.cm-pagination .page-item.disabled .page-link{color:#b1aaaa}
+.cm-pagination .page-link:hover{color:#a98e4c;background:transparent;text-decoration:underline}
+.cm-pagination .page-item.active .page-link{color:#a98e4c;background-color:transparent;text-decoration:underline}
+.cm-arrow{position:relative;width:15px;transition:.2s;height:20px;display:inline-block}
+.cm-arrow:hover{transition:.3s;width:20px}
+.cm-arrow::before{position:absolute;top:50%;transform:translateY(-50%);width:100%;content:'';background:#b1aaaa;height:1px;transition:.5s}
+.cm-arrow::after{position:absolute;top:6px;transform:rotate(-45deg);width:8px;right:1px;height:100%;content:'';border-right:1px solid #b1aaaa;border-bottom:1px solid #b1aaaa;transition:.5s;height:8px;transform-origin:center}
+.cm-plus::after{position:absolute;top:50%;transform:translateY(-50%);left:0;width:100%;right:1px;height:100%;content:'';transition:.3s;height:1px;transform-origin:center;background:#979797}
+.cm-plus::before{position:absolute;top:0;width:1px;right:0;height:100%;content:'';left:50%;transform:translateX(-50%);transition:.3s;transform-origin:center;background:#979797}
+.cm-plus.is-minus::after,.cm-minus::before{position:absolute;top:0;width:1px;right:0;height:100%;content:'';transform:rotate(0);transition:.5s;height:1px;transform-origin:center;background:#979797}
+.cm-arrow.left::after{right:unset;left:1px;border-right:0;border-bottom:0;border-left:1px solid #b1aaaa;border-top:1px solid #b1aaaa}
+.mt-10{margin-top:10px}
+.mt-20{margin-top:20px}
+.mt-30{margin-top:30px}
+.mt-25,h1.mt-25,h2.mt-25{margin-top:25px}
+.mt-40{margin-top:40px}
+.mt-50,h1.mt-50,h2.mt-50{margin-top:50px}
+.mb-10{margin-bottom:10px}
+.mb-20{margin-bottom:20px}
+.mb-25,h1.mb-25,h2.mb-25{margin-bottom:25px}
+.mb-30{margin-bottom:30px}
+.mb-40{margin-bottom:40px}
+.mb-50{margin-bottom:50px !important}
+.mb-100{margin-bottom:100px !important}
+@media only screen and (max-width:767px){h1.cm-heading{font-size:24px}
+h3.cm-heading,h2.cm-heading{font-size:16px}
+.cm-text-serif{font-size:14px}
+.cm-link,.cm-link:hover{font-size:14px}
+.cm-button.cm-wide-mobile{width:100%;max-width:245px;margin:0 auto;display:block}
+.cm-button{padding:9px 15px}
+.cm-button-group.vertical-sm{flex-direction:column;align-items:center}
+.cm-button-group.vertical-sm .cm-button{margin:0;margin-bottom:25px}
+.cm-text-16{font-size:14px}
+.cm-input,.cm-input-text,.cm-select-option{font-size:12px}
+.cm-input-label span.cm-placeholder-label,.cm-input-label .cm-input-text{font-size:12px;line-height:22px}
+.cm-input::placeholder{font-size:12px}
+.cm-input::-webkit-input-placeholder{font-size:12px}
+.mb-25-xs{margin-bottom:25px !important}
+.mt-25-xs{margin-top:25px !important}
+}
+@media only screen and (max-width:767px){.mb-25-sm{margin-bottom:25px !important}
+.mt-25-sm{margin-top:25px !important}
+.mb-50-sm{margin-bottom:50px !important}
+}
+body{margin:0}
+.divider{display:block;height:1px;background:#a1a1a1;width:100%}
+.cm-wrapper{margin:auto;max-width:1190px;width:100%;padding-right:18px;padding-left:18px}
+.cm-outer-wrapper{margin:auto;max-width:1440px;width:100%}
+.cm-padding-block{padding-top:0;padding-bottom:100px}
+.cm-bottom-padding-block{padding-bottom:100px}
+.cm-top-padding-block{padding-top:100px}
+.main-body-container{padding-top:80px}
+.full-image{width:100%}
+.cm-owl-carousel .owl-item .cm-owl-carousel-image-block{height:100%;margin-top:30%;margin-bottom:25px}
+.cm-owl-carousel .owl-item.active ~ .owl-item.active .cm-owl-carousel-image-block{padding-top:105%;margin-top:0}
+.cm-owl-carousel .owl-item.active ~ .owl-item.active ~ .owl-item.active .cm-owl-carousel-image-block,.cm-owl-carousel .owl-item.active .cm-owl-carousel-image-block{padding-top:52.7%;margin-top:30%}
+.not-centered.cm-owl-carousel .owl-item.active .cm-owl-carousel-image-block{padding-top:105%;margin-top:0}
+.cm-owl-carousel .owl-item.center.active .cm-owl-carousel-image-block::before,.cm-owl-carousel .owl-item.center.active .cm-owl-carousel-image-block::after{transform:scaleY(0)}
+.cm-owl-carousel.owl-carousel .owl-nav button.owl-prev{content:'';width:0;height:0;border-left:13px solid transparent;border-right:13px solid transparent;border-top:13px solid #a98e4c;clear:both;transform:rotate(90deg);position:absolute;left:-40px;top:195px;outline:0}
+.cm-owl-carousel.owl-carousel .owl-nav button.owl-prev span,.cm-owl-carousel.owl-carousel .owl-nav button.owl-next span{display:none}
+.cm-owl-carousel.owl-carousel .owl-nav button.owl-next{content:'';width:0;height:0;border-left:13px solid transparent;border-right:13px solid transparent;border-top:13px solid #a98e4c;clear:both;transform:rotate(-90deg);position:absolute;right:-40px;top:195px;outline:0}
+.cm-owl-carousel.owl-carousel .owl-nav button.owl-next.disabled,.cm-owl-carousel.owl-carousel .owl-nav button.owl-prev.disabled{display:none}
+.cm-carousel-type-3.owl-carousel .owl-nav button.owl-prev{content:'';width:0;height:0;border-left:13px solid transparent;border-right:13px solid transparent;border-top:13px solid #a98e4c;clear:both;transform:rotate(90deg);position:absolute;left:-40px;top:46%;outline:0}
+.cm-carousel-type-3.owl-carousel .owl-nav button.owl-prev span,.cm-carousel-type-3.owl-carousel .owl-nav button.owl-next span{display:none}
+.cm-carousel-type-3.owl-carousel .owl-nav button.owl-next{content:'';width:0;height:0;border-left:13px solid transparent;border-right:13px solid transparent;border-top:13px solid #a98e4c;clear:both;transform:rotate(-90deg);position:absolute;right:-40px;top:31%;outline:0}
+.teaser-owl-carousel.owl-carousel .owl-nav button.owl-prev{content:'';width:0;height:0;border-left:13px solid transparent;border-right:13px solid transparent;border-top:13px solid #a98e4c;clear:both;transform:rotate(90deg);position:absolute;left:-40px;top:38%;outline:0}
+.cards-carousel.owl-carousel .owl-nav{position:absolute;top:0;left:0;width:40px;pointer-events:none;height:calc(20.3vw - 60px);width:100%}
+.cards-carousel.owl-carousel .owl-nav button.owl-prev,.cards-carousel.owl-carousel .owl-nav button.owl-next{width:50px;height:50px;background-repeat:no-repeat;background-position:center;position:absolute;top:calc(50% - 25px);pointer-events:all;outline:0;background-image:url('../../../../content/dam/tlc-website/slider-arrow-trans.svg')}
+.cards-carousel.owl-carousel .owl-nav button.owl-next::after{content:'';width:0;height:0;position:absolute;overflow:hidden;visibility:hidden;background-image:url('../../../../content/dam/tlc-website/slider-arrow-1.svg')}
+.cards-carousel.owl-carousel .owl-nav button.owl-prev:hover,.cards-carousel.owl-carousel .owl-nav button.owl-next:hover{background-image:url('../../../../content/dam/tlc-website/slider-arrow-1.svg')}
+.cards-carousel.owl-carousel .owl-nav button.owl-prev{background-size:100% 100%;width:30px;left:0;transform:translateY(-50%)}
+.cards-carousel.owl-carousel .owl-nav button.owl-next{background-size:100% 100%;width:30px;right:0;transform:translateY(-50%) rotate(180deg)}
+.cards-carousel.owl-carousel .owl-nav button.owl-prev.disabled,.cards-carousel.owl-carousel .owl-nav button.owl-next.disabled{display:none}
+.teaser-owl-carousel.owl-carousel .owl-nav button.owl-prev span,.teaser-owl-carousel.owl-carousel .owl-nav button.owl-next span,.cards-carousel.owl-carousel .owl-nav button.owl-prev span,.cards-carousel.owl-carousel .owl-nav button.owl-next span{display:none}
+.teaser-owl-carousel.owl-carousel .owl-nav button.owl-next{content:'';width:0;height:0;border-left:13px solid transparent;border-right:13px solid transparent;border-top:13px solid #a98e4c;clear:both;transform:rotate(-90deg);position:absolute;right:-40px;top:38%;outline:0}
+.teaser-owl-carousel.teaser-square-carousel.owl-carousel .owl-nav button.owl-prev,.teaser-owl-carousel.teaser-square-carousel.owl-carousel .owl-nav button.owl-next{top:28%}
+.teaser-owl-carousel.owl-carousel .owl-nav button.owl-prev.disabled,.teaser-owl-carousel.owl-carousel .owl-nav button.owl-next.disabled{border-top-color:#ccc}
+.cm-owl-carousel .owl-stage{display:flex;align-items:flex-start;margin:0 auto}
+.dropdown-type1+.custom-combobox .custom-combobox-input{background:transparent;box-shadow:none;border:0;border-bottom:1px solid #fff;width:100%;height:46px;color:#fff;outline:0;font-size:16px;font-family:"ProximaNova",sans-serif;font-weight:300}
+.ui-menu{list-style:none;padding:0;margin:0;box-shadow:1px 4px 5px 0 rgba(0,0,0,0.11);background-color:#fff;max-height:40vh;overflow:scroll;overflow:overlay;height:auto;z-index:5}
+.ui-menu-item{background:#fff;font-size:14px;cursor:pointer;font-family:"ProximaNova",sans-serif;font-weight:300;color:#000;padding:0}
+.ui-menu-item div{padding:5px 10px}
+.ui-menu-item div:hover,.ui-menu-item .ui-state-active{background-color:#eee}
+.ui-helper-hidden-accessible{display:none}
+.ui-menu::-webkit-scrollbar{width:5px}
+.ui-menu::-webkit-scrollbar-track{background:#fff}
+.ui-menu::-webkit-scrollbar-thumb{background:#ddd}
+.ui-menu::-webkit-scrollbar-thumb:hover{background:#bbb}
+.dropdown-type1.dark+.custom-combobox .custom-combobox-input{color:#b1aaaa;border-color:#b1aaaa}
+.dropdown-type1.dark+.custom-combobox .custom-combobox-toggle::after{border-top:8px solid #b1aaaa}
+.dropdown-type1.dark+.custom-combobox .custom-combobox-input::placeholder,.dropdown-type1.dark+.custom-combobox .custom-combobox-input::-webkit-input-placeholder{color:#b1aaaa}
+.dropdown-type1+.custom-combobox .custom-combobox-input::placeholder{color:#fff}
+.dropdown-type1+.custom-combobox .custom-combobox-input::-webkit-input-placeholder{color:#fff}
+.custom-combobox{position:relative;height:100%;font-size:0;display:block;width:100%}
+.custom-combobox-toggle{width:10px;height:100%;display:inline;height:10px;position:absolute;right:0;top:50%;transform:translateY(-50%);visibility:hidden}
+.dropdown-type1+.custom-combobox .custom-combobox-toggle::after{content:'';width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:8px solid #fff;clear:both;position:absolute;right:0;top:50%;transform:translateY(-50%);outline:0}
+.dropdown-type2+.custom-combobox .custom-combobox-input{background:transparent;box-shadow:none;border:0;width:100%;height:26px;color:#b1b1b1;outline:0;font-size:16px;font-weight:300;padding-bottom:5px;width:45px}
+.dropdown-type2+.custom-combobox .custom-combobox-input:focus{border-color:#a98e4c}
+.dropdown-type2+.custom-combobox .custom-combobox-input::placeholder{color:#b1aaaa}
+.dropdown-type2+.custom-combobox .custom-combobox-input::-webkit-input-placeholder{color:#b1aaaa}
+.dropdown-type2+.custom-combobox .custom-combobox-toggle::after{content:'';width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:8px solid #b1aaaa;clear:both;position:absolute;right:0;top:50%;transform:translateY(-50%);outline:0}
+.dropdown-type2+.custom-combobox .custom-combobox-toggle{visibility:visible}
+.dropdown-type-form+.custom-combobox .custom-combobox-input{background:transparent;box-shadow:none;padding-bottom:5px;font-family:"ProximaNova",sans-serif;border:0;border-bottom:1px solid #000;padding-bottom:5px;color:#000;outline:0;font-size:16px;width:100%;font-weight:300;cursor:text;background:transparent}
+.dropdown-type-form+.custom-combobox .custom-combobox-input:focus{border-color:#a98e4c}
+.dropdown-type-form+.custom-combobox .custom-combobox-input::placeholder{color:#000}
+.dropdown-type-form+.custom-combobox .custom-combobox-input::-webkit-input-placeholder{color:#000}
+.dropdown-type-form+.custom-combobox .custom-combobox-toggle::after{content:'';width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:8px solid #000;clear:both;position:absolute;right:0;top:50%;transform:translateY(-50%);outline:0}
+.dropdown-type-form+.custom-combobox .custom-combobox-toggle{visibility:visible}
+.is-hidden{display:none !important}
+.visible-mobile{display:none !important}
+.hidden-mobile{display:inherit !important}
+.lets-chat-link img{height:20px;margin-right:5px}
+.height-100{height:100%}
+.cm-input-group .ui-widget{width:100%}
+.cm-carousel-type2 .item{width:65vw}
+.owl-exp.owl-carousel .owl-item.center.active .exp-carousel-caption{opacity:1}
+.owl-exp.owl-carousel .owl-nav .owl-prev{background:#fff;width:40px;height:80px;transform:none;border-radius:0 40px 40px 0;position:absolute;top:50%;transform:translateY(-50%);left:0;outline:0}
+.owl-exp.owl-carousel .owl-nav .owl-next{background:#fff;width:40px;height:80px;transform:none;border-radius:40px 0 0 40px;position:absolute;top:50%;transform:translateY(-50%);right:0;outline:0}
+.owl-exp.owl-carousel .owl-nav .owl-prev:after{content:'';width:0;height:0;border-left:10px solid transparent;border-right:10px solid transparent;border-top:13px solid #dddbd6;clear:both;transform:translateY(-50%) rotate(90deg);position:absolute;left:6px;top:50%;outline:0}
+.owl-exp.owl-carousel .owl-nav .owl-prev:hover:after,.owl-exp.owl-carousel .owl-nav .owl-next:hover:after{border-top-color:#a98e4c}
+.owl-exp.owl-carousel .owl-nav .owl-next:after{content:"";width:0;height:0;border-left:10px solid transparent;border-right:10px solid transparent;border-top:13px solid #dddbd6;clear:both;transform:translateY(-50%) rotate(-90deg);position:absolute;right:6px;top:50%;outline:0}
+.owl-dots{text-align:center;margin-top:40px}
+.owl-carousel button.owl-dot{width:12px;height:12px;border:0;border-radius:50%;margin:0 12px;box-sizing:content-box;flex:0 1 auto;cursor:pointer;background-color:rgba(177,170,170,0.5);transition:opacity .6s ease;outline:0}
+.owl-carousel button.owl-dot.active{background-color:#b1aaaa}
+@media only screen and (min-width:1400px){.cm-owl-carousel .owl-item .cm-owl-carousel-image-block{margin-top:0}
+}
+@media only screen and (min-width:1260px){.cards-carousel.owl-carousel .owl-nav button.owl-prev{left:-45px}
+.cards-carousel.owl-carousel .owl-nav button.owl-next{right:-45px}
+}
+@media only screen and (min-width:1330px){.cards-carousel.owl-carousel .owl-nav button.owl-prev{left:-65px}
+.cards-carousel.owl-carousel .owl-nav button.owl-next{right:-65px}
+}
+@media only screen and (max-width:1260px){.teaser-owl-carousel.owl-carousel .owl-nav button.owl-next,.cards-carousel.owl-carousel .owl-nav button.owl-next,.cm-owl-carousel.owl-carousel .owl-nav button.owl-next{right:0;top:17vw}
+.teaser-owl-carousel.owl-carousel.teaser-square-carousel .owl-nav button.owl-next,.teaser-owl-carousel.owl-carousel.teaser-square-carousel .owl-nav button.owl-prev{top:11vw}
+.teaser-owl-carousel.owl-carousel .owl-nav button.owl-prev,.cards-carousel.owl-carousel .owl-nav button.owl-prev,.cm-owl-carousel.owl-carousel .owl-nav button.owl-prev{left:0;top:17vw}
+}
+@media only screen and (max-width:767px){.teaser-owl-carousel.owl-carousel .owl-nav button.owl-next,.cards-carousel.owl-carousel .owl-nav button.owl-next,.cm-owl-carousel.owl-carousel .owl-nav button.owl-next{right:0;top:26.5vw}
+.teaser-owl-carousel.owl-carousel .owl-nav button.owl-prev,.cards-carousel.owl-carousel .owl-nav button.owl-prev,.cm-owl-carousel.owl-carousel .owl-nav button.owl-prev{left:0;top:26.5vw}
+.dropdown-type-form+.custom-combobox .custom-combobox-input{font-size:12px}
+.teaser-owl-carousel.teaser-square-carousel.owl-carousel .owl-nav button.owl-next,.teaser-owl-carousel.teaser-square-carousel.owl-carousel .owl-nav button.owl-prev{top:18vw}
+.cm-owl-carousel .owl-item .cm-owl-carousel-image-block,.cm-owl-carousel .owl-item.active ~ .owl-item.active ~ .owl-item.active .cm-owl-carousel-image-block,.cm-owl-carousel .owl-item.active ~ .owl-item.active .cm-owl-carousel-image-block{padding-top:88%;margin-top:10%}
+.cm-owl-carousel .owl-item.active.center .cm-owl-carousel-image-block{padding-top:105%;margin-top:0}
+.cards-carousel.owl-carousel .owl-nav button.owl-next,.cards-carousel.owl-carousel .owl-nav button.owl-prev{width:20px;height:40px;opacity:.9}
+.owl-exp.owl-carousel .owl-nav .owl-next,.owl-exp.owl-carousel .owl-nav .owl-prev{top:45%;transform:translateY(0)}
+.owl-exp.owl-carousel .owl-item.center.active .exp-carousel-caption{width:100%}
+.cm-owl-carousel.owl-carousel .owl-nav button.owl-next,.cm-owl-carousel.owl-carousel .owl-nav button.owl-prev{display:none}
+.cm-owl-carousel .owl-item.active.center .cm-owl-carousel-image-block{padding-top:105%;margin-top:0}
+.cards-carousel.owl-carousel .owl-nav{height:calc(37.3vw - 30px)}
+.visible-mobile{display:inherit !important}
+.hidden-mobile{display:none !important}
+.cm-wrapper.cm-wrapper-collapse-mobile{padding-left:0;padding-right:0}
+.main-body-container{padding-top:50px}
+.cm-padding-block{padding-top:0;padding-bottom:50px}
+.cm-top-padding-block{padding-top:50px}
+body{overflow-x:hidden}
+.cm-carousel-type-3.owl-carousel .owl-nav button.owl-prev{left:0}
+.cm-carousel-type-3.owl-carousel .owl-nav button.owl-next{right:0}
+.dropdown-type1+.custom-combobox .custom-combobox-input{font-size:12px;height:25px}
+.dropdown-type2+.custom-combobox .custom-combobox-input{font-size:12px}
+.cm-inner-wrapper{width:100%;max-width:calc(100vw - 170px);margin:auto;min-width:245px;padding:0}
+.no-padding-sm{padding:0}
+.cm-order-sm-1{order:1}
+.cm-order-sm-2{order:2}
+.ui-menu-item{font-size:12px}
+.cm-owl-carousel.owl-carousel .owl-nav button.owl-next,.cm-owl-carousel.owl-carousel .owl-nav button.owl-prev{display:none}
+}
+
+input[type="submit"]:focus{outline:0}
+div#become-member{padding-bottom:0 !important}
+.cm-button-group.mb-25.top-margin-az.vertical-sm{margin-top:43px}
+.cm-link.cm-link-serif{font-family:"ProximaNova",sans-serif;text-decoration:underline}
+a.cm-footer-link.cm-link-serif.footer-links.hover-class.lets-chat-link:hover{font-size:18px;text-decoration:none}
+a.cm-footer-link.cm-link-serif.footer-links.hover-class.lets-chat-link{text-decoration:none}
+a.cm-footer-link.cm-link-serif.footer-links.toll-free{text-decoration:none}
+a.cm-footer-link.cm-link-serif.footer-links.toll-free:hover{text-decoration:none;font-size:18px}
+a.chat-without-underline.cm-link.cm-link-serif.footer-links.lets-chat-link{text-decoration:none}
+a.chat-without-underline.cm-link.cm-link-serif.footer-links.lets-chat-link:hover{text-decoration:none;font-size:18px}
+a.cm-link.cm-link-serif.footer-links.lets-chat-link.text-center.underlined.without-underline{text-decoration:none}
+a.cm-link.cm-link-serif.footer-links.lets-chat-link.text-center.underlined.without-underline:hover{text-decoration:none;font-size:18px}
+a.cm-link.cm-link-serif.lets-chat-link.footer-links{text-decoration:none;font-size:18px}
+a.cm-link.cm-link-serif.lets-chat-link.footer-links:hover{text-decoration:none;font-size:18px}
+a.cm-link.cm-link-serif.footer-links:hover{font-size:18px;text-decoration:none}
+a.cm-link.cm-link-serif.footer-links{font-size:18px;text-decoration:none}
+a.cm-link.cm-link-serif.footer-links.toll-free{margin-left:7px}
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none){h2.cm-heading{width:250px}
+}
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none){h2.text-.with-space-100.cm-main-heading.cm-heading{width:100%}
+}
+h2.cm-heading.cm-main-heading.new-text.text-.with-space-100{width:100%}
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none){.primary.cm-button{width:160px !important}
+}
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none){a.cm-footer-link.cm-link-serif.footer-links.hide-chat.hover-class.lets-chat-link{display:none}
+}
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none){a.cm-link.cm-link-serif.footer-links.hide-chat.lets-chat-link{display:none}
+}
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none){h2.cm-heading.cm-heading-gray.width-correct{width:125px}
+}
+.lets-chat-link.contactUs img{height:50px;margin-right:5px}
+.cm-top-padding-block.col-md-8.margin-bottom.offset-md-2{padding-top:50px}
+.become-member-padding.cm-padding-block.cm-wrapper{padding-bottom:0}
+.cm-blog-item.cm-blog-padding-0.right-aligned{margin-bottom:0}
+.cm-top-padding-block.cm-wrapper.padding-less{padding-top:25px}
+.owl-dots{text-align:center;margin-top:40px;margin-bottom:20px}
+@media only screen and (max-width:480px){.owl-dots{text-align:center;margin-top:20px;margin-bottom:10px}
+.cm-top-padding-block.cm-wrapper.padding-less{padding-top:10px}
+.become-member-padding.cm-padding-block.cm-wrapper{padding-bottom:0}
+}
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none){h2.IE-center.cm-heading.mb-50.text-center{text-align:center;width:100%;display:block}
+}
+@media only screen and (max-width:480px){.owl-dots{text-align:center;margin-top:-8px;margin-bottom:10px}
+.cm-bottom-padding-block{padding-bottom:20px}
+}
+input.cm-input.input-mobile{margin-right:15px}
+input.cm-input.input-email{width:310px;margin-left:-13px}
+@media only screen and (max-width:480px){a.cm-link.cm-link-serif.footer-links{font-size:16px}
+a.cm-link.cm-link-serif.lets-chat-link.footer-links{font-size:16px}
+}
+h1,h2,h3,h4,h5,h6{font-family:"ProximaNova",sans-serif;font-size:26px;color:#000}
+p{font-family:EB Garamond;font-size:16px;color:#000}
+.top-text-section h3{text-align:center;padding:50px 150px 0 150px;line-height:35px}
+.form-section{padding:50px 150px 0 150px}
+.form-section .form-control{border:0;border-bottom:1px solid gray;border-radius:0;box-shadow:none;-webkit-appearance:none;background:url('../../../../content/dam/tlc/drop-icon.png') no-repeat;background-position:right;text-indent:.01px;text-overflow:"";color:gray}
+.button{background-color:#c4b67e;border:0;padding:8px 50px;color:white;font-size:16px;font-family:"EB Garamond",serif;outline:0;box-shadow:none}
+::selection,select:focus::-ms-value{background:0;color:#000}
+p.heading_text1,p.heading_text2{text-align:center;font-family:"ProximaNova",sans-serif}
+@media(max-width:480px){.form-section{padding:50px 0 0 0}
+.top-text-section h3{text-align:center;padding:50px 10px 0 10px;line-height:25px;font-size:18px}
+}
+.list-wrapper{position:relative}
+.list-item-wrapper{position:relative}
+.list-bullet{float:left;margin-right:20px;background:#c4b67e;margin-top:18px;height:12px;width:12px;line-height:30px;border-radius:100px;font-weight:700;color:white;text-align:center}
+.list-item{display:table-row;vertical-align:middle}
+.list-title{line-height:50px;font-family:"Proxima Nova, Light";font-size:24px}
+.membership-detail-section h2{color:#6c6565;font-size:24px;font-family:"Proxima Nova, Light"}
+.membership-detail-section label{font-size:16px;font-family:"Proxima Nova, Light";color:#6c6565}
+.custome-bullet.list-bullet{border:1px solid #c4b67e;background:white;font-family:"ProximaNova",sans-serif;font-size:16px}
+.custome-title.list-title div{font-family:"ProximaNova",sans-serif;font-size:16px}
+.custome-title.list-title{color:#c4b67e;text-decoration:underline;font-size:24px;font-family:"ProximaNova, Medium"}
+.custome-color-title.list-title{color:#6c6565;font-size:24px;font-family:"Proxima Nova, Light"}
+.red-line{background:#c4b67e;z-index:-1;width:1.5px;margin-top:20px;height:72%;position:absolute;left:6px}
+.white-line{background:#FFF;z-index:-1;top:0;width:1px;height:100%;position:absolute;left:15px}
+.navbar-light .navbar-nav .nav-link{color:black}
+.nav-right-button button{color:#fff;background:#c4b67e;border:0;border-radius:0;padding:5px 10px}
+.nav-right-button button{font-family:"ProximaNova",sans-serif;font-size:14px;font-weight:300}
+.nav-right-button button:hover,.nav-right-button button:focus,.nav-right-button button:active{color:#fff !important;background:#c4b67e !important;outline:none !important}
+.navbar-brand{margin-right:-66px}
+.navbar-nav a{font-size:14px;font-weight:300}
+.on-image-text .container-fluid{position:relative;text-align:center;color:white;margin:0;font-family:"ProximaNova",sans-serif;font-size:14px}
+.bottom-left{position:absolute;bottom:8px;left:16px}
+.top-left{position:absolute;top:8px;left:16px}
+.top-right{position:absolute;top:8px;right:16px}
+.bottom-right{position:absolute;bottom:8px;right:16px}
+.centered p{font-family:"ProximaNova",sans-serif;font-size:16px;line-height:1.38}
+.centered h1{font-family:"Proxima Nova, Light";color:#fff;font-size:32px}
+.centered{position:relative}
+.centered h1{position:absolute;left:0;right:0;top:40%;bottom:0;text-align:center;margin:0 auto;color:white}
+h2.cm-heading.cm-main-heading.with-space-100.text- p{margin-bottom:50px;font-size:24px !important}
+h1.cm-heading.cm-main-heading.text- p{font-size:24px !important}
+.left-side-navigation ul li{padding-bottom:30px;font-family:"ProximaNova",sans-serif;font-size:16px}
+.membership-detail-section{font-family:"ProximaNova",sans-serif;font-size:16px}
+.membership-detail-section h1,.membership-detail-section h1 span{font-family:"Proxima Nova, Light";font-size:24px;color:#000}
+.membership-detail-section p:nth-child(1){color:#000;font-family:"EB Garamond, Regular";font-size:16px}
+.membership-detail-section p:nth-child(3){color:#000;font-family:"EB Garamond, Regular";font-size:16px}
+.membership-detail-section input[type="text"],select.mobile-drop.form-control{border:0;padding:0;outline:0;border-bottom:1px solid gray;border-radius:0;font-family:"ProximaNova",sans-serif;font-size:16px;box-shadow:none}
+p{font-family:"Proxima Nova, Light";font-size:16px}
+.membership-detail-section .btn-outline-dark{color:#c4b67e;border-color:#c4b67e;border:1px solid #c4b67e;font-family:"ProximaNova",sans-serif}
+.membership-detail-section .btn-outline-dark:hover,.membership-detail-section .btn-outline-dark:active,.membership-detail-section .btn-outline-dark:focus{background:none !important}
+.personal-detail-section h1,.membership-detail-section-page2 h4{font-size:24px;font-family:"Proxima Nova, Light";color:#000}
+.membership-detail-section-page2 h1{font-size:24px;font-family:"Proxima Nova, Light";color:#000}
+.personal-detail-section h2{font-size:24px;font-family:"Proxima Nova, Light";color:#6c6565}
+.personal-detail-section h3{font-size:16px;font-family:"EB Garamond, Regular";color:#000}
+.personal-detail-section p{font-size:16px;font-family:"ProximaNova",sans-serif}
+.personal-detail-section input[type="text"]{border:0;padding:0;border-bottom:1px solid gray;border-radius:0;outline:none !important;font-size:16px;width:100%;font-family:"ProximaNova",sans-serif}
+.personal-detail-section input[type="text"]:focus{outline:none !important;box-shadow:none;font-size:16px;font-family:"ProximaNova",sans-serif}
+.personal-detail-section select{border:0;padding:0;border-bottom:1px solid gray;border-radius:0;font-size:16px;font-family:"ProximaNova",sans-serif}
+.personal-detail-section select:focus{outline:none !important;box-shadow:none;font-size:16px;font-family:"ProximaNova",sans-serif}
+.personal-detail-section .back-button{background:0;border:0;border:1px solid #c4b67e !important;outline:0;padding:10px;margin-top:30px;padding:8px 50px;color:#c4b67e;margin-right:30px;font-size:14px;font-family:"Proxima Nova, Light"}
+.personal-detail-section .next-button{background:#c4b67e;color:white;border:0;border:1px solid #c4b67e;outline:0;padding:10px;margin-top:30px;padding:8px 50px;font-size:16px;font-family:"ProximaNova",sans-serif}
+.personal-details .custom-control{padding-left:.2rem}
+.personal-details .custom-control-input:checked~.custom-control-label::before{color:#fff;border-color:#c4b67e;background-color:#c4b67e;border-radius:50%;outline:0}
+.foorter-section-left p{border-bottom:1px solid gray;width:350px;display:inline-block;font-size:16px;font-family:"ProximaNova",sans-serif}
+.signup-button .sign-up{background:#c4b67e;color:white;border:0;border:1px solid #c4b67e;outline:0;padding:10px;margin-top:-9px;padding:8px 50px;font-size:16px;font-family:"ProximaNova",sans-serif}
+.footer p{margin-bottom:5px;font-size:14px;font-family:'ProximaNova'}
+.app-store img{padding:15px}
+.app-store p{width:393px;float:right;font-size:16px;font-family:"ProximaNova",sans-serif}
+.app-store .chat{width:393px;display:inline;float:right;font-size:16px;font-family:"ProximaNova",sans-serif}
+.membership-detail-section-page2 .left-section p,.left-section{color:#b9b8b8;font-size:16px;font-family:"ProximaNova",sans-serif}
+.custom-control-label{position:relative;margin-bottom:0;color:#b1b1b1;padding-left:26px;font-size:13px;vertical-align:top;font-size:16px;font-family:"EB Garamond, Regular"}
+.checkbox-section .back-button{background:0;font-size:14px;font-family:"Proxima Nova, Light";border:0;border:1px solid #c4b67e !important;outline:0;padding:10px;margin-top:30px;padding:8px 30px;color:#c4b67e;margin-right:30px}
+.checkbox-section .next-button{background:#b1aaaa;color:white;border:0;border:1px solid #b1aaaa;outline:0;padding:10px;margin-top:30px;padding:8px 20px}
+.custom-control-input:checked~.custom-control-label::before{color:#fff;border-color:#c4b67e;background-color:#c4b67e;border-radius:0}
+.custom-control-input:focus~.custom-control-label::before{box-shadow:none;border:1px solid #c4b67e !important}
+.custom-control-input:focus~.custom-control-label::after{border:1px solid #c4b67e !important;border-radius:0}
+.btn-primary.focus,.btn-primary:focus{color:#fff;background-color:#c4b67e !important;border-color:#c4b67e;box-shadow:none;border-radius:0}
+.custom-control-label::before{border:#c4b67e solid 1px;border-radius:0;background:0}
+.custom-control-input:not(:disabled):active~.custom-control-label::before{color:#fff;background-color:#c4b67e !important;border-color:#c4b67e;border-radius:0}
+.personal-details .custom-control-input:not(:disabled):active~.custom-control-label::before{color:#fff;background-color:#c4b67e;border-color:#c4b67e !important;border-radius:50%}
+.custom-control{padding-left:.3rem}
+.checkSubmit{background-color:#c4b67e}
+.checkSubmit.active{background-color:#c4b67e}
+.left-section-the-orient h6{font-size:16px;font-family:"ProximaNova",sans-serif}
+.left-section-the-orient p{font-size:16px;font-family:"EB Garamond, Regular"}
+.left-section-the-orient button{background-color:#c4b67e;border:0;padding:8px 50px;color:white;font-size:14px;font-family:"Proxima Nova, Light"}
+.personal-details .custom-control-input:focus~.custom-control-label::before{box-shadow:none;border:0}
+.personal-details .custom-control-input:focus~.custom-control-label::after{border:noen;border-radius:50%}
+.personal-details input[type="text"]{box-shadow:none;width:100%;padding:0}
+.personal-details input[type="button"]{background-color:#a9a9a9;border:0;padding:8px 50px;color:white;font-size:14px;font-family:"Proxima Nova, Light"}
+.backbutton{background-color:#a9a9a9;border:0;padding:8px 50px;margin-left:16px;color:white;font-size:14px;font-family:"Proxima Nova, Light"}
+.golden-button{background-color:#c4b67e;border:0;outline:0;padding:10px 30px;color:white;font-size:14px;font-family:"Proxima Nova, Light"}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{background-color:#c4b67e}
+.membership-detail-section.reservation h4{color:black}
+.reservation-details p:nth-child(1){color:#cacaca;margin:0}
+.membership-detail-section.reservation input[type="text"]{border:0;width:100%;font-style:italic;padding:10px 0;outline:0;border-bottom:1px solid #c4b67e;border-radius:0;font-family:"Proxima Nova, Light";font-size:16px}
+.new-form-newsletter input[type="text"]{border:0;width:100%;font-style:italic;padding:5px 0;outline:0;border-bottom:1px solid gray;border-radius:0;font-family:"ProximaNova",sans-serif;font-size:16px}
+p.footer-text-internation{position:absolute}
+.membership-detail-section.reservation .back-button{background:0;border:0;border:1px solid #c4b67e !important;outline:0;padding:10px;padding:8px 50px;color:#c4b67e;margin-right:30px;font-size:14px;font-family:"Proxima Nova, Light"}
+.reservation .reservation-text-details h3{color:#000;font-family:"EB Garamond, Regular";font-size:16px}
+.choose-date input[type="button"]:nth-child(1){border:1px solid #c4b67e;border-radius:29px;padding:8px 25px;color:#cacaca;outline:0;font-size:14px;background-color:white;text-align:center}
+.choose-date input[type="button"]:nth-child(2),.add-beverage input[type="button"]:nth-child(2){border:1px solid #c4b67e;border-radius:29px;padding:8px 25px;font-size:14px;color:white;outline:0;background-color:white;color:#cacaca;text-align:center}
+.choose-time{display:flex;width:82%}
+.choose-time select{border:0;outline:0;border-bottom:1px solid #c4b67e;border-radius:0;font-family:"ProximaNova",sans-serif;font-size:16px;margin-right:4px}
+.pmbutton{border:1px solid #c4b67e;padding:0 3px;background:white;border-radius:16px;width:130px;margin:6px;text-align:center;outline:0;color:black;font-size:14px}
+.ambutton{border:1px solid #c4b67e;padding:0 3px;background:white;border-radius:16px;width:130px;margin:6px;outline:0;text-align:center;color:black;font-size:14px}
+.number-of-guest input[type="button"]{border:1px solid #c4b67e;padding:0 3px;background:white;border-radius:50%;width:40px;height:40px;margin:6px;outline:0;text-align:center;outline:0;color:black;font-size:14px}
+.membership-detail-section .number-of-guest input[type="text"]{border:0;width:20%;font-style:italic;padding:10px 0;outline:0;border-bottom:1px solid #c4b67e;border-radius:0;font-family:"ProximaNova",sans-serif;font-size:16px}
+.special-occasion input[type="button"]:nth-child(1),.add-food input[type="button"],.add-beverage input[type="button"]{border:1px solid #c4b67e;border-radius:29px;padding:8px 25px;color:#cacaca;outline:0;font-size:14px;background-color:white;text-align:center}
+.special-occasion input[type="button"]:nth-child(2){border:1px solid #c4b67e;border-radius:29px;padding:8px 25px;color:#cacaca;outline:0;font-size:14px;background-color:white;text-align:center}
+.special-occasion input[type="button"]:nth-child(3){border:1px solid #c4b67e;border-radius:29px;padding:8px 25px;color:#cacaca;outline:0;font-size:14px;background-color:white;text-align:center}
+input.gray-border{border:none !important;border-bottom:1px solid gray !important}
+.button-next{background-color:#a9a9a9;outline:0;border:0;padding:10px 50px;margin-left:16px;color:white;font-size:14px;font-family:"Proxima Nova, Light"}
+.input-cross{background-image:url('main/css/cross.png');background-repeat:no-repeat;background-size:20px;background-position:right}
+.membership-detail-section.reservation ul li{list-style:none;padding:10px 0}
+.membership-detail-section.reservation .left-side-text ul li{list-style:none;padding:10px 0;color:#cacaca}
+
+.enter-top input{width:29px;height:29px;padding:0;border:0;font-size:16px;font-family:"EB Garamond, Regular";border-bottom:1px solid gray;border-radius:0;text-align:center;appearance:none;appearance:none;margin:0;outline:0}
+.enter-top input[type="number"]{-webkit-appearance:none !important}
+.enter-top input[type="image"]{width:20px;height:20px;border:0}
+.enterotp{line-height:60px;padding-right:8px;padding-left:15px}
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.left-section-the-orient h2{font-family:"Proxima Nova, Light";color:#6c6565;font-size:24px}
+.md-stepper-horizontal{display:table;width:100%;margin:0 auto}
+.md-stepper-horizontal .md-step{display:table-cell;position:relative;padding:15px;width:35%}
+.md-stepper-horizontal .md-step:first-child:active{border-top-left-radius:0;border-bottom-left-radius:0}
+.md-stepper-horizontal .md-step:last-child:active{border-top-right-radius:0;border-bottom-right-radius:0}
+.md-stepper-horizontal .md-step:hover .md-step-circle{background-color:#757575}
+.md-stepper-horizontal .md-step:first-child .md-step-bar-left,.md-stepper-horizontal .md-step:last-child .md-step-bar-right{display:none}
+.md-stepper-horizontal .md-step .md-step-circle{width:20px;height:20px;margin:8px auto;background-color:#999;border-radius:50%;text-align:center;line-height:30px;font-size:16px;font-weight:600;color:#fff}
+.md-stepper-horizontal.green .md-step.active .md-step-circle{background-color:#00ae4d}
+.md-stepper-horizontal.orange .md-step.active .md-step-circle{background:0;border:1px solid #c4b67e}
+.md-stepper-horizontal .md-step.active .md-step-circle{background-color:#2196f3}
+.md-stepper-horizontal .md-step.done .md-step-circle *,.md-stepper-horizontal .md-step.editable .md-step-circle *{display:none}
+.md-stepper-horizontal .md-step.editable .md-step-circle{-moz-transform:scaleX(-1);-o-transform:scaleX(-1);-webkit-transform:scaleX(-1);transform:scaleX(-1)}
+.md-stepper-horizontal .md-step .md-step-title{margin-top:16px;font-size:16px}
+.md-stepper-horizontal .md-step .md-step-title,.md-stepper-horizontal .md-step .md-step-optional{text-align:center;color:rgba(0,0,0,.26)}
+.md-stepper-horizontal .md-step.active .md-step-title{color:#cacaca}
+.md-stepper-horizontal .md-step .md-step-optional{font-size:12px}
+.md-stepper-horizontal .md-step.active .md-step-optional{color:rgba(0,0,0,.54)}
+.md-stepper-horizontal .md-step .md-step-bar-left,.md-stepper-horizontal .md-step .md-step-bar-right{position:absolute;top:36px;height:1px;border-top:1px solid #ddd}
+.md-stepper-horizontal .md-step .md-step-bar-right{right:0;left:50%;margin-left:20px}
+.md-stepper-horizontal .md-step .md-step-bar-left{left:0;right:50%;margin-right:20px}
+.active-class.md-step-title{color:#c4b67e !important}
+.active-bg.md-step-circle{background:#c4b67e !important}
+.membership-detail-section-page2 label,.left-section label,.food-detail label{font-size:16px;font-family:"Proxima Nova, Light";color:#6c6565}
+.membership-detail-section-page2 p,.left-section p,.food-detail p{font-size:16px;font-family:"Proxima Nova, Light";color:#000}
+.collapsible-link{width:100%;position:relative;text-align:left}
+.collapsible-link::before{content:'\f107';position:absolute;top:50%;right:.8rem;transform:translateY(-50%);display:block;font-family:'FontAwesome';font-size:1.1rem}
+.collapsible-link[aria-expanded='true']::before{content:'\f106'}
+.btn{padding:.375rem 0rem}
+.btn-link:hover{color:#0056b3;text-decoration:none;background-color:transparent;border-color:transparent}
+.modal .modal-body{width:auto;position:relative;margin:0;padding:10px 20px;border-radius:0;background:#fff;transition:.3s;transition-delay:0;transform:none;max-width:560px;box-shadow:none}
+.multiple-membership p{text-align:left}
+.multiple-membership .custom-control{padding:10px}
+.multiple-membership .custom-radio .custom-control-label::before,.multiple-membership .custom-radio .custom-control-label::after{border-radius:50%;margin-top:22%}
+.custom-radio .custom-control-input:checked~.custom-control-label::before,.custom-radio .custom-control-input:checked~.custom-control-label::after{background-color:#c4b67e}
+input.golden-button.mb-4.mt-4.select-card{display:block;margin:auto}
+@media only screen and (min-width:768px){.mobile-view-tab{display:none}
+.only-for-mobile{display:none}
+}

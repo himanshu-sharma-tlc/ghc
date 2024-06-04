@@ -1,0 +1,2072 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Photo Gallery | Global Hospitality Conclave</title>
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MP75LDQ');
+  </script>
+  <!-- End Google Tag Manager -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="og:type" property="og:type" content="website">
+  <meta name="description" property="description" content="Catch the glimpses of all GHC events across the years">
+  <meta name="og:description" property="og:description" content="Catch the glimpses of all GHC events across the years">
+  <meta name="og:title" property="og:title" content="Photo Gallery | Global Hospitality Conclave">
+  <link rel="icon" type="image/png" href="assets/fav.jpg" sizes="16x16" />
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/nav2.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/photo-gallery-1.css">
+  <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.css" />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js'>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GDDJ4B0NZX"></script>
+  <script src="script/menu_header.js"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-GDDJ4B0NZX');
+  </script>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MP75LDQ" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <header>
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <div class="logo">
+          <a href="https://globalhospitalityconclave.com/">
+            <img src="assets/GHC-Logo.png" alt="Logo" />
+          </a>
+        </div>
+        <ul class="header__nav dsktop">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="ghc-evening.html">GHC Evening</a>
+          </li>
+          <li>
+            <a href="organizing-committee.html">Organizing Committee</a>
+          </li>
+          <li>
+            <a href="photo-gallery.html" class="active">Photo Gallery</a>
+          </li>
+          <li>
+            <a href="memorabilia.html">Memorabilia</a>
+          </li>
+          <li>
+            <a href="contactus.aspx">Contact Us</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          <div class="menu-btn">
+            <a class="btn-open" href="javascript:void(0)"></a>
+          </div>
+        </span>
+      </div>
+    </nav>
+  </header>
+  <div class="overlay">
+    <div class="menu">
+      <div class="container">
+        <ul class="header__nav">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="ghc-evening.html">GHC Evening</a>
+          </li>
+          <li>
+            <a href="organizing-committee.html">Organizing Committee</a>
+          </li>
+          <li>
+            <a href="photo-gallery.html" class="active">Photo Gallery</a>
+          </li>
+          <li>
+            <a href="memorabilia.html">Memorabilia</a>
+          </li>
+          <li>
+            <a href="contactus.aspx">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <section class="banner-section topmargin">
+    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline oncontextmenu="return false;" preload="auto"
+      id="myVideo" class="vdeoheightphoto">
+      <source src="https://globalhospitalityconclave.com/video/GHC-History-Video.mp4" type="video/mp4">
+    </video>
+    <button class="mute-video">toggle</button>
+  </section>
+<!-- add new galley section shif from the new page -->
+  <!--  <section class="memorabiliagalery">
+      <div class="container">
+        <div class="gallery memorabilia">
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04321.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04321.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03832.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03832.webp" class="lazy" alt="GHC Gallery Img">
+          </a>
+          <a href="gallery-photo/memorabilia/gallery1.webp" data-fancybox="gallery" class="gallery__item gallery__item--hor  zoom-box">
+            <img src="gallery-photo/memorabilia/gallery1.webp" class="lazy" alt="GHC Gallery Img">
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03838.webp" data-fancybox="gallery" class="gallery__item zoom-box ">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03838.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03840.webp" data-fancybox="gallery" class="gallery__item  zoom-box ">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03840.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03843.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03843.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03842.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03842.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03844.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03844.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03847.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03847.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03849.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03849.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03851.webp" data-fancybox="gallery" class="gallery__item gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03851.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03854.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03854.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03856.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03856.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03857.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03857.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03860.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03860.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03864.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03864.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03866.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03866.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03868.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03868.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03869.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03869.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03870.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03870.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03873.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03873.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03876.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03876.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03878.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03878.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03880.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03880.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03881.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03881.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03884.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03884.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03885.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03885.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03886.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03886.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03889.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03889.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03890.webp" data-fancybox="gallery" class="gallery__item gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03890.webp" class="lazy" alt="GHC Gallery Img">
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03891.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03891.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03892.webp" data-fancybox="gallery" class="gallery__item  zoom-box ">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03892.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03893.webp" data-fancybox="gallery" class="gallery__item gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03893.webp" class="lazy" alt="GHC Gallery Img" />
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03898.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03898.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03899.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03899.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03900.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03900.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03901.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03901.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03903.webp" data-fancybox="gallery" class="gallery__item gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03903.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03906.webp" data-fancybox="gallery" class="gallery__item gallery__item--vert zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03906.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03907.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03907.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03908.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03908.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03909.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03909.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03910.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03910.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03917.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03917.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03918.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03918.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03920.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03920.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03921.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03921.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03924.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03924.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03925.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03925.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03926.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03926.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03929.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03929.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03930.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03930.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03931.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03931.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03932.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03932.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03933.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03933.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03934.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03934.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03939.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03939.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03941.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03941.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03943.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03943.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03946.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03946.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03947.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03947.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03948.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03948.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03950.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03950.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03951.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03951.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03952.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03952.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03954.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03954.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03958.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03958.webp" class="lazy" alt="GHC Gallery Img">
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03959.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03959.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03960.webp" data-fancybox="gallery" class="gallery__item  zoom-box ">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03960.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03962.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03962.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04047.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04047.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03965.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03965.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03968.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03968.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03975.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03975.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03988.webp" data-fancybox="gallery" class="gallery__item gallery__item--vert zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03988.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03989.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03989.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03993.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03993.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03994.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03994.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03995.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03995.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04000.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04000.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04003.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04003.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04008.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04008.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04010.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04010.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04011.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04011.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04018.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04018.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04021.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04021.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04022.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04022.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04023.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04023.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04025.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04025.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04032.webp" data-fancybox="gallery" class="gallery__item gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04032.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04041.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04041.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04043.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04043.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04044.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04044.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04051.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04051.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04053.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04053.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04055.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04055.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04064.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04064.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04067.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04067.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04069.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04069.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04076.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04076.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04080.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04080.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04081.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04081.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04083.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04083.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04085.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04085.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04087.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04087.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04088.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04088.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04098.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04098.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04103.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04103.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04107.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04107.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04125.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04125.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04128.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04128.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04131.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04131.webp" class="lazy" alt="GHC Gallery Img">
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04133.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04133.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04134.webp" data-fancybox="gallery" class="gallery__item  zoom-box ">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04134.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04135.webp" data-fancybox="gallery" class="gallery__item gallery__item--vert zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04135.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04136.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04136.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04145.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04145.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04150.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04150.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04151.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04151.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04161.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04161.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04173.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04173.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04177.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04177.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04179.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04179.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04182.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04182.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04190.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04190.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04191.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04191.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04192.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04192.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04193.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04193.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04195.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04195.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04196.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04196.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04197.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04197.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04200.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04200.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04201.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04201.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04202.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04202.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04203.webp" data-fancybox="gallery" class="gallery__item gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04203.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04205.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04205.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04206.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04206.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04210.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04210.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04214.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04214.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04229.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04229.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04232.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04232.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04239.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04239.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04243.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04243.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04245.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04245.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04247.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04247.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04250.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04250.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04252.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04252.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04253.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04253.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04256.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04256.webp" class="lazy" alt="GHC Gallery Img">
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04259.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04259.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04267.webp" data-fancybox="gallery" class="gallery__item  zoom-box ">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04267.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04283.webp" data-fancybox="gallery" class="gallery__item gallery__item--vert zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04283.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04288.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04288.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04289.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04289.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04292.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04292.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04308.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04308.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04317.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04317.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04318.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04318.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04319.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04319.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04338.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04338.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04339.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04339.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04342.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04342.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04348.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04348.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04350.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04350.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04353.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04353.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04354.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04354.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04355.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04355.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04356.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04356.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04362.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04362.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04363.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04363.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04366.webp" data-fancybox="gallery" class="gallery__item gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04366.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04367.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04367.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04368.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04368.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04369.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04369.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04370.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04370.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04371.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04371.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04372.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04372.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04374.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04374.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04375.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04375.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04376.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04376.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04377.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04377.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04378.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04378.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04379.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04379.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04380.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04380.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04384.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04384.webp" class="lazy" alt="GHC Gallery Img">
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04386.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04386.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04387.webp" data-fancybox="gallery" class="gallery__item  zoom-box ">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04387.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04390.webp" data-fancybox="gallery" class="gallery__item gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04390.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04392.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04392.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04394.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04394.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04398.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04398.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04401.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04401.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04402.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04402.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04403.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04403.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04405.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04405.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04406.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04406.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04407.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04407.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04408.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04408.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04412.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04412.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04416.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04416.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04417.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04417.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04419.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04419.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04421.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04421.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04422.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04422.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04423.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04423.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04425.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04425.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04427.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04427.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04428.webp" data-fancybox="gallery" class="gallery__item gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04428.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04429.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04429.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04430.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04430.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04431.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04431.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04431.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04431.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04433.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04433.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04434.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04434.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04435.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04435.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04436.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04436.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04437.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04437.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04441.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04441.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04443.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04443.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04444.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04444.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04445.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04445.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04447.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04447.webp" class="lazy" alt="GHC Gallery Img">
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04448.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04448.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04449.webp" data-fancybox="gallery" class="gallery__item  zoom-box ">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04449.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04451.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04451.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04455.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04455.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04458.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04458.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04459.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04459.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04461.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04461.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04464.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04464.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04465.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04465.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04468.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04468.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04471.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04471.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04472.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04472.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04474.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04474.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04475.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04475.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04476.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04476.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04477.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04477.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04479.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04479.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04481.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04481.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04482.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04482.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04484.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04484.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04485.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04485.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04486.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04486.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04487.webp" data-fancybox="gallery" class="gallery__item gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04487.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04488.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04488.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04489.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04489.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04491.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04491.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04492.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04492.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04495.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04495.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04496.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04496.webp" class="lazy" alt="GHC Gallery Img">
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04499.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04499.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04500.webp" data-fancybox="gallery" class="gallery__item  zoom-box ">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04500.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04503.webp" data-fancybox="gallery" class="gallery__item gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04503.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04504.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04504.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04506.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04506.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04510.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04510.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04513.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04513.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04516.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04516.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04521.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04521.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04524.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04524.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04525.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04525.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04528.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04528.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04529.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04529.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04533.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04533.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04539.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04539.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04544.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04544.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04545.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04545.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04546.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04546.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04549.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04549.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04550.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04550.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04556.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04556.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+        </div>
+      </div>
+    </section> -->
+    <!-- shifted upper section -->
+    <!-- addd here memorabilia class in gallery section -->
+  <!-- photo gallery start here -->
+  <section class="topmargin">
+    <div class="container">
+      <div class="gallery">
+        <!-- added ghc-2023 sectin gallery here -->
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04321.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04321.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03832.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03832.webp" class="lazy" alt="GHC Gallery Img">
+          </a>
+          <a href="gallery-photo/memorabilia/gallery1.webp" data-fancybox="gallery" class="gallery__item gallery__item--hor  zoom-box">
+            <img src="gallery-photo/memorabilia/gallery1.webp" class="lazy" alt="GHC Gallery Img">
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03838.webp" data-fancybox="gallery" class="gallery__item zoom-box ">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03838.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03840.webp" data-fancybox="gallery" class="gallery__item  zoom-box ">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03840.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03843.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03843.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03842.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03842.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03844.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03844.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03847.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03847.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03849.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03849.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03851.webp" data-fancybox="gallery" class="gallery__item gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03851.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03854.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03854.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03856.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03856.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03857.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03857.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03860.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03860.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03864.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03864.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03866.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03866.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03868.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03868.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03869.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03869.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03870.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03870.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03873.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03873.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03876.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03876.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03878.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03878.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03880.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03880.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03881.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03881.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03884.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03884.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03885.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03885.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03886.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03886.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03889.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03889.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03890.webp" data-fancybox="gallery" class="gallery__item gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03890.webp" class="lazy" alt="GHC Gallery Img">
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03891.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03891.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03892.webp" data-fancybox="gallery" class="gallery__item  zoom-box ">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03892.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03893.webp" data-fancybox="gallery" class="gallery__item gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03893.webp" class="lazy" alt="GHC Gallery Img" />
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03898.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03898.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03899.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03899.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03900.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03900.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03901.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03901.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03903.webp" data-fancybox="gallery" class="gallery__item gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03903.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03906.webp" data-fancybox="gallery" class="gallery__item gallery__item--vert zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03906.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03907.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03907.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03908.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03908.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03909.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03909.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03910.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03910.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03917.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03917.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03918.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03918.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03920.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03920.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03921.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03921.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03924.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03924.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03925.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03925.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03926.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03926.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03929.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03929.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03930.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03930.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03931.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03931.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03932.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03932.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03933.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03933.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03934.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03934.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03939.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03939.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03941.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03941.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03943.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03943.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03946.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03946.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03947.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03947.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03948.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03948.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03950.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03950.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03951.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03951.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03952.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03952.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03954.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03954.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03958.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03958.webp" class="lazy" alt="GHC Gallery Img">
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03959.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03959.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03960.webp" data-fancybox="gallery" class="gallery__item  zoom-box ">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03960.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03962.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03962.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04047.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04047.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03965.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03965.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03968.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03968.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03975.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03975.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03988.webp" data-fancybox="gallery" class="gallery__item gallery__item--vert zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03988.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03989.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03989.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03993.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03993.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03994.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03994.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC03995.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC03995.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04000.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04000.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04003.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04003.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04008.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04008.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04010.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04010.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04011.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04011.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04018.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04018.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04021.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04021.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04022.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04022.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04023.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04023.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04025.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04025.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04032.webp" data-fancybox="gallery" class="gallery__item gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04032.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04041.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04041.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04043.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04043.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04044.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04044.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04051.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04051.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04053.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04053.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04055.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04055.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04064.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04064.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04067.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04067.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04069.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04069.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04076.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04076.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04080.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04080.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04081.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04081.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04083.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04083.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04085.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04085.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04087.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04087.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04088.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04088.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04098.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04098.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04103.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04103.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04107.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04107.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04125.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04125.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04128.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04128.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04131.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04131.webp" class="lazy" alt="GHC Gallery Img">
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04133.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04133.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04134.webp" data-fancybox="gallery" class="gallery__item  zoom-box ">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04134.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04135.webp" data-fancybox="gallery" class="gallery__item gallery__item--vert zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04135.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04136.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04136.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04145.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04145.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04150.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04150.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04151.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04151.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04161.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04161.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04173.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04173.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04177.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04177.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04179.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04179.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04182.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04182.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04190.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04190.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04191.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04191.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04192.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04192.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04193.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04193.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04195.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04195.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04196.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04196.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04197.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04197.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04200.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04200.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04201.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04201.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04202.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04202.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04203.webp" data-fancybox="gallery" class="gallery__item gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04203.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04205.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04205.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04206.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04206.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04210.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04210.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04214.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04214.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04229.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04229.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04232.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04232.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04239.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04239.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04243.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04243.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04245.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04245.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04247.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04247.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04250.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04250.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04252.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04252.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04253.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04253.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04256.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04256.webp" class="lazy" alt="GHC Gallery Img">
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04259.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04259.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04267.webp" data-fancybox="gallery" class="gallery__item  zoom-box ">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04267.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+            <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04283.webp" data-fancybox="gallery" class="gallery__item gallery__item--vert zoom-box">
+              <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04283.webp" class="lazy" alt="GHC Gallery Img" />
+            </a>
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04288.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04288.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04289.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04289.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04292.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04292.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04308.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04308.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04317.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04317.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04318.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04318.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04319.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04319.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04338.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04338.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04339.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04339.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04342.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04342.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04348.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04348.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04350.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04350.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04353.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04353.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04354.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04354.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04355.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04355.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04356.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04356.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04362.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04362.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04363.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04363.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04366.webp" data-fancybox="gallery" class="gallery__item gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04366.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04367.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04367.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04368.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04368.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04369.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04369.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04370.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04370.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04371.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04371.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04372.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04372.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04374.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04374.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04375.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04375.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04376.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04376.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04377.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04377.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04378.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04378.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04379.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04379.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04380.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04380.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04384.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04384.webp" class="lazy" alt="GHC Gallery Img">
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04386.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04386.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04387.webp" data-fancybox="gallery" class="gallery__item  zoom-box ">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04387.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04390.webp" data-fancybox="gallery" class="gallery__item gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04390.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04392.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04392.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04394.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04394.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04398.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04398.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04401.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04401.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04402.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04402.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04403.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04403.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04405.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04405.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04406.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04406.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04407.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04407.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04408.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04408.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04412.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04412.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04416.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04416.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04417.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04417.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04419.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04419.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04421.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04421.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04422.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04422.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04423.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04423.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04425.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04425.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04427.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04427.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04428.webp" data-fancybox="gallery" class="gallery__item gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04428.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04429.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04429.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04430.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04430.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04431.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04431.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04431.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04431.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04433.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04433.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04434.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04434.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04435.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04435.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04436.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04436.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04437.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04437.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04441.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04441.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04443.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04443.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04444.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04444.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04445.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04445.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04447.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04447.webp" class="lazy" alt="GHC Gallery Img">
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04448.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04448.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04449.webp" data-fancybox="gallery" class="gallery__item  zoom-box ">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04449.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04451.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04451.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04455.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04455.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04458.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04458.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04459.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04459.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04461.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04461.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04464.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04464.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04465.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04465.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04468.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04468.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04471.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04471.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04472.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04472.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04474.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04474.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04475.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04475.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04476.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04476.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04477.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04477.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04479.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04479.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04481.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04481.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04482.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04482.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04484.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04484.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04485.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04485.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04486.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04486.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04487.webp" data-fancybox="gallery" class="gallery__item gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04487.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04488.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04488.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04489.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04489.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04491.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04491.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04492.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04492.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04495.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04495.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04496.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04496.webp" class="lazy" alt="GHC Gallery Img">
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04499.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04499.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04500.webp" data-fancybox="gallery" class="gallery__item  zoom-box ">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04500.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04503.webp" data-fancybox="gallery" class="gallery__item gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04503.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04504.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04504.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04506.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04506.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04510.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04510.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04513.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04513.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04516.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04516.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04521.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04521.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04524.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04524.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04525.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04525.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04528.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04528.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04529.webp" data-fancybox="gallery" class="gallery__item  gallery__item--vert zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04529.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04533.webp" data-fancybox="gallery" class="gallery__item  gallery__item--lg zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04533.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04539.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04539.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04544.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04544.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04545.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04545.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04546.webp" data-fancybox="gallery" class="gallery__item  gallery__item--hor zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04546.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04549.webp" data-fancybox="gallery" class="gallery__item   zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04549.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04550.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04550.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+          <a href="gallery-photo/ghc2023/ImagesBatch01/DSC04556.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+            <img src="gallery-photo/ghc2023/ImagesBatch01/DSC04556.webp" class="lazy" alt="GHC Gallery Img" />
+          </a>
+        <!-- end here -->
+        <a href="gallery-photo/Mask-group.jpg" data-fancybox="gallery"
+          class="gallery__item gallery__item--vert zoom-box">
+          <img src="gallery-photo/Mask-group.jpg"></a>
+        <a href="gallery-photo/Mask-group-2.jpg" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/Mask-group-2.jpg" />
+        </a>
+        <a href="gallery-photo/Mask-group-27.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/Mask-group-27.webp" />
+        </a>
+        <a href="gallery-photo/Mask-group-4.jpg" data-fancybox="gallery"
+          class="gallery__item gallery__item--vert zoom-box">
+          <img src="gallery-photo/Mask-group-4.jpg" />
+        </a>
+        <a href="gallery-photo/Mask-group-5.jpg" data-fancybox="gallery"
+          class="gallery__item gallery__item--lg zoom-box">
+          <img src="gallery-photo/Mask-group-5.jpg" />
+        </a>
+        <a href="gallery-photo/Mask-group-6.jpg" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/Mask-group-6.jpg" />
+        </a>
+        <a href="gallery-photo/Mask-group-7.jpg" data-fancybox="gallery"
+          class="gallery__item gallery__item--lg zoom-box">
+          <img src="gallery-photo/Mask-group-7.jpg" />
+        </a>
+        <a href="gallery-photo/Mask-group-8.jpg" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/Mask-group-8.jpg" />
+        </a>
+        <a href="gallery-photo/Mask-group-10.jpg" data-fancybox="gallery"
+          class="gallery__item gallery__item--vert zoom-box">
+          <img src="gallery-photo/Mask-group-10.jpg" />
+        </a>
+        <a href="gallery-photo/Mask-group-9.jpg" data-fancybox="gallery"
+          class="gallery__item gallery__item--vert zoom-box">
+          <img src="gallery-photo/Mask-group-9.jpg" />
+        </a>
+        <a href="gallery-photo/Mask-group-11.webp" data-fancybox="gallery"
+          class="gallery__item gallery__item--vert zoom-box">
+          <img src="gallery-photo/Mask-group-11.webp" />
+        </a>
+        <a href="gallery-photo/Mask-group-12.jpg" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/Mask-group-12.jpg" />
+        </a>
+        <a href="gallery-photo/Mask-group-13.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/Mask-group-13.webp" />
+        </a>
+        <a href="gallery-photo/Mask-group-14.webp" data-fancybox="gallery"
+          class="gallery__item gallery__item--vert zoom-box">
+          <img src="gallery-photo/Mask-group-14.webp" />
+        </a>
+        <a href="gallery-photo/Mask-group-15.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/Mask-group-15.webp" />
+        </a>
+        <a href="gallery-photo/Mask-group-16.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/Mask-group-16.webp" />
+        </a>
+        <a href="gallery-photo/GHC26.jpg" data-fancybox="gallery" class="gallery__item gallery__item--vert zoom-box">
+          <img src="gallery-photo/GHC26.jpg"></a>
+        <a href="gallery-photo/Mask-group-18.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/Mask-group-18.webp" />
+        </a>
+        <a href="gallery-photo/Mask-group-19.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/Mask-group-19.webp" />
+        </a>
+        <a href="gallery-photo/Mask-group-20.webp" data-fancybox="gallery"
+          class="gallery__item gallery__item--vert zoom-box">
+          <img src="gallery-photo/Mask-group-20.webp" />
+        </a>
+        <a href="gallery-photo/Mask-group-21.webp" data-fancybox="gallery"
+          class="gallery__item gallery__item--lg zoom-box">
+          <img src="gallery-photo/Mask-group-21.webp" />
+        </a>
+        <a href="gallery-photo/IMG_3044.jpg" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/IMG_3044.jpg" />
+        </a>
+        <a href="gallery-photo/Mask-group-23.jpg" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/Mask-group-23.jpg" />
+        </a>
+        <a href="gallery-photo/Mask-group-10.webp" data-fancybox="gallery"
+          class="gallery__item gallery__item--vert zoom-box">
+          <img src="gallery-photo/Mask-group-10.webp" />
+        </a>
+        <a href="gallery-photo/Mask-group-45.jpg" data-fancybox="gallery"
+          class="gallery__item gallery__item--vert zoom-box">
+          <img src="gallery-photo/Mask-group-45.jpg" />
+        </a>
+        <a href="gallery-photo/Mask-group-24.webp" data-fancybox="gallery"
+          class="gallery__item gallery__item--vert zoom-box">
+          <img src="gallery-photo/Mask-group-25.webp" />
+        </a>
+        <a href="gallery-photo/Mask-group-26.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/Mask-group-26.webp" />
+        </a>
+        <a href="gallery-photo/IMG_3552.jpg" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/IMG_3552.jpg" />
+        </a>
+        <a href="gallery-photo/Mask-group-28.jpg" data-fancybox="gallery"
+          class="gallery__item gallery__item--vert zoom-box">
+          <img src="gallery-photo/Mask-group-28.jpg" />
+        </a>
+        <a href="gallery-photo/Mask-group-29.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/Mask-group-29.webp" />
+        </a>
+        <a href="gallery-photo/Mask-group-30.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/Mask-group-30.webp" />
+        </a>
+        <a href="gallery-photo/Mask-group-31.webp" data-fancybox="gallery"
+          class="gallery__item gallery__item--vert zoom-box">
+          <img src="gallery-photo/Mask-group-31.webp" />
+        </a>
+        <a href="gallery-photo/Mask-group-32.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/Mask-group-32.webp" />
+        </a>
+        <a href="gallery-photo/Mask-group-2.jpg" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/Mask-group-2.jpg" />
+        </a>
+        <a href="gallery-photo/img-2574.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/img-2574.webp" />
+        </a>
+        <a href="gallery-photo/img-2656.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+          <img src="gallery-photo/img-2656.webp" />
+        </a>
+        <a href="gallery-photo/img-2715.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+          <img src="gallery-photo/img-2715.webp" />
+        </a>
+        <a href="gallery-photo/img-2737.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+          <img src="gallery-photo/img-2737.webp" />
+        </a>
+        <a href="gallery-photo/img-2819.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/img-2819.webp" />
+        </a>
+        <a href="gallery-photo/img-2900.webp" data-fancybox="gallery" class="gallery__item  zoom-box">
+          <img src="gallery-photo/img-2900.webp" />
+        </a>
+        <a href="gallery-photo/img-2978.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/img-2978.webp" />
+        </a>
+        <a href="gallery-photo/img-3091.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/img-3091.webp" />
+        </a>
+        <a href="gallery-photo/img-3358.webp" data-fancybox="gallery"
+          class="gallery__item gallery__item--vert zoom-box">
+          <img src="gallery-photo/img-3358.webp" />
+        </a>
+        <a href="gallery-photo/img-3228.webp" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/img-3228.webp" />
+        </a>
+        <a href="gallery-photo/img-3344.webp" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+          <img src="gallery-photo/img-3344.webp" />
+        </a>
+        <a href="gallery-photo/18.jpg" data-fancybox="gallery" class="gallery__item  zoom-box">
+          <img src="gallery-photo/18.jpg" />
+        </a>
+        <a href="gallery-photo/GHC0.jpg" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/GHC0.jpg" />
+        </a>
+        <a href="gallery-photo/GHC1.jpg" data-fancybox="gallery" class="gallery__item  zoom-box">
+          <img src="gallery-photo/GHC1.jpg" />
+        </a>
+        <a href="gallery-photo/GHC3.jpg" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/GHC3.jpg" />
+        </a>
+        <a href="gallery-photo/GHC4.jpg" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/GHC4.jpg" />
+        </a>
+        <a href="gallery-photo/GHC5.jpg" data-fancybox="gallery" class="gallery__item  zoom-box">
+          <img src="gallery-photo/GHC5.jpg" />
+        </a>
+        <a href="gallery-photo/GHC6.jpg" data-fancybox="gallery" class="gallery__item  zoom-box">
+          <img src="gallery-photo/GHC6.jpg" />
+        </a>
+        <a href="gallery-photo/GHC7.jpg" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+          <img src="gallery-photo/GHC7.jpg" />
+        </a>
+        <a href="gallery-photo/GHC8.jpg" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/GHC8.jpg" />
+        </a>
+        <a href="gallery-photo/GHC9.jpg" data-fancybox="gallery" class="gallery__item  zoom-box">
+          <img src="gallery-photo/GHC9.jpg" />
+        </a>
+        <a href="gallery-photo/GHC610.jpg" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/GHC10.jpg" />
+        </a>
+        <a href="gallery-photo/GHC11.jpg" data-fancybox="gallery" class="gallery__item gallery__item--lg  zoom-box">
+          <img src="gallery-photo/GHC11.jpg" />
+        </a>
+        <a href="gallery-photo/GHC12.jpg" data-fancybox="gallery" class="gallery__item  zoom-box">
+          <img src="gallery-photo/GHC12.jpg" />
+        </a>
+        <a href="gallery-photo/GHC13.jpg" data-fancybox="gallery" class="gallery__item  zoom-box">
+          <img src="gallery-photo/GHC13.jpg" />
+        </a>
+        <a href="gallery-photo/GHC14.jpg" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/GHC14.jpg" />
+        </a>
+        <a href="gallery-photo/GHC15.jpg" data-fancybox="gallery" class="gallery__item  zoom-box">
+          <img src="gallery-photo/GHC15.jpg" />
+        </a>
+        <a href="gallery-photo/GHC16.jpg" data-fancybox="gallery" class="gallery__item  zoom-box">
+          <img src="gallery-photo/GHC16.jpg" />
+        </a>
+        <a href="gallery-photo/GHC17.jpg" data-fancybox="gallery" class="gallery__item gallery__item--lg zoom-box">
+          <img src="gallery-photo/GHC17.jpg" />
+        </a>
+        <a href="gallery-photo/GHC18.jpg" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/GHC18.jpg" />
+        </a>
+        <a href="gallery-photo/GHC19.jpg" data-fancybox="gallery" class="gallery__item  zoom-box">
+          <img src="gallery-photo/GHC19.jpg" />
+        </a>
+        <a href="gallery-photo/GHC20.jpg" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/GHC20.jpg" />
+        </a>
+        <a href="gallery-photo/GHC23.jpg" data-fancybox="gallery" class="gallery__item gallery__item--vert zoom-box">
+          <img src="gallery-photo/GHC23.jpg" />
+        </a>
+        <a href="gallery-photo/GHC21.jpg" data-fancybox="gallery" class="gallery__item   gallery__item--lg zoom-box">
+          <img src="gallery-photo/GHC21.jpg" />
+        </a>
+        <a href="gallery-photo/GHC22.jpg" data-fancybox="gallery" class="gallery__item  zoom-box">
+          <img src="gallery-photo/GHC22.jpg" />
+        </a>
+        <a href="gallery-photo/GHC27.jpg" data-fancybox="gallery" class="gallery__item gallery__item--vert  zoom-box">
+          <img src="gallery-photo/GHC27.jpg" />
+        </a>
+        <a href="gallery-photo/GHC24.jpg" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/GHC24.jpg" />
+        </a>
+        <a href="gallery-photo/GHC25.jpg" data-fancybox="gallery" class="gallery__item  zoom-box">
+          <img src="gallery-photo/GHC25.jpg" />
+        </a>
+
+        <a href="gallery-photo/GHC28.jpg" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/GHC28.jpg" />
+        </a>
+        <a href="gallery-photo/GHC30.jpg" data-fancybox="gallery" class="gallery__item  zoom-box">
+          <img src="gallery-photo/GHC30.jpg" />
+        </a>
+        <a href="gallery-photo/GHC31.jpg" data-fancybox="gallery" class="gallery__item  zoom-box">
+          <img src="gallery-photo/GHC31.jpg" />
+        </a>
+        <a href="gallery-photo/GHC32.jpg" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/GHC32.jpg" />
+        </a>
+        <a href="gallery-photo/GHC33.jpg" data-fancybox="gallery" class="gallery__item  zoom-box">
+          <img src="gallery-photo/GHC33.jpg" />
+        </a>
+        <a href="gallery-photo/GHC34.jpg" data-fancybox="gallery" class="gallery__item zoom-box">
+          <img src="gallery-photo/GHC34.jpg" />
+        </a>
+        <a href="gallery-photo/GHC35.jpg" data-fancybox="gallery" class="gallery__item   zoom-box">
+          <img src="gallery-photo/GHC35.jpg" />
+        </a>
+        <a href="gallery-photo/GHC29.jpg" data-fancybox="gallery" class="gallery__item  zoom-box">
+          <img src="gallery-photo/GHC29.jpg" />
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-section">
+    <footer>
+      <p>
+        <a href="mailto:contactus@globalhospitalityconclave.com" style="color: #fff;">
+          <span style="padding: 10px;">
+            <img src="assets/email-icon-global-hospitality-conclave-2023.svg" loading="lazy">
+          </span>contactus@globalhospitalityconclave.com </a>
+      </p>
+      <p>@ 2023 All Rights Reserved</p>
+      <p>Website managed by <a href="https://tlcgroup.com/" target="blank"> www.tlcgroup.com</a>
+      </p>
+    </footer>
+  </section>
+  <script type="text/javascript">
+    $("video").prop('muted', true);
+    $(".mute-video").click(function () {
+      if ($("video").prop('muted')) {
+        $("video").prop('muted', false);
+        $(this).addClass('unmute-video');
+      } else {
+        $("video").prop('muted', true);
+        $(this).removeClass('unmute-video');
+      }
+      console.log($("video").prop('muted'))
+    });
+  </script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.js'></script>
+</body>
+
+</html>
